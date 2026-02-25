@@ -1,0 +1,15 @@
+body{
+    /* background-color: brown; */
+    background-image: url("../img/pupariabackground.jpg");
+}
+
+h1{
+    color:chartreuse;
+    background-color:aqua;
+    width:350px;
+}
+
+p{
+    background-color: white;
+    
+}
