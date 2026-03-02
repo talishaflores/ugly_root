@@ -1,15 +1,55 @@
-body{
-    /* background-color: brown; */
-    background-image: url("../img/pupariabackground.jpg");
+body {
+    background-color: yellow;
+     background-image: 
+        url("../img/sparklefall.gif"),
+        url("../img/sullykitten.gif");
+    font-family: "Comic Sans MS", cursive;
+    text-align: left;
 }
 
-h1{
-    color:chartreuse;
-    background-color:aqua;
-    width:350px;
+h1 {
+    background-color: red;
+    color: lime;
+    font-size: 80px;
+    border: 12px dashed blue;
 }
 
-p{
-    background-color: white;
-    
+.header-img {
+    width: 60px;
+    vertical-align: middle;
+}
+
+p {
+    background-color: purple;
+    color: orange;
+    font-size: 35px;
+}
+
+button {
+    background-color: cyan;
+    color: magenta;
+    font-size: 40px;
+    border: 10px dotted green;
+}
+
+img {
+    width: 350px;
+    border: 15px groove black;
+}
+
+#popup {
+    position: fixed;
+    top: 300px;
+    right: 20px;
+
+    width: 250px;
+    padding: 20px;
+
+    background-color: yellow;
+    border: 8px dashed red;
+
+    font-size: 18px;
+    text-align: center;
+
+    z-index: 9999;
 }
